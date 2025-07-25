@@ -28,7 +28,7 @@ Switch between **Classic**, **Glassmorphism**, and **Neumorphism** styles with o
 
 ## 🛠️ Customize
 
-- Edit CSS variables in `styles/*.css`
+- Edit CSS variables in `*.css`
 - Add or remove projects in `<section class="projects">`
 
 ---
