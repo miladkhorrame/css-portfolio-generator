@@ -1,0 +1,16 @@
+:root {
+  --bg: #e0eaff;
+  --text: #1a1a1a;
+  --box-bg: rgba(255, 255, 255, 0.2);
+  --shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+body {
+  background: linear-gradient(135deg, #c6e0ff, #eaf0ff);
+  backdrop-filter: blur(10px);
+}
+
+.project {
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(20px);
+}
