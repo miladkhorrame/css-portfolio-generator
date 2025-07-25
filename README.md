@@ -1,26 +1,52 @@
-# ✨ CSS Portfolio Generator
+# 🎨 CSS Portfolio Generator (No-JS)
 
-A beautiful and minimal **portfolio website generator** with 3 switchable CSS themes — all built with **pure HTML + CSS**, no frameworks, no JavaScript dependencies.
-
-Perfect for developers and designers who want a fast, stylish portfolio with zero JS overhead.
-
-## 🔥 Includes:
-
-✅ Classic theme  
-🧊 Glassmorphism theme  
-🪐 Neumorphism theme  
+A responsive, multi-theme portfolio generator using just **HTML + CSS**.  
+Switch between **Classic**, **Glassmorphism**, and **Neumorphism** styles with one click.
 
 ---
 
-## 🔥 Why Use It?
+## 🌟 Features
 
-- Easy to customize
-- Fully responsive
-- No JavaScript required (only a tiny switch script)
-- Unique designs that stand out
-- MIT licensed — free for personal/commercial use
+- 100% Responsive Design
+- 3 Unique Themes (Switchable)
+- Built with only HTML + CSS (minimal JS for switching)
+- Dark/Light variants with modern animations
+- Perfect for developers/designers
 
 ---
 
-## 🚀 [Live Demo on GitHub Pages](https://github.com/miladkhorrame/css-portfolio-generator/)
+## 🚀 Usage
 
+1. Clone the repo  
+   `git clone https://github.com/miladkhorrame/css-portfolio-generator/`
+
+2. Open `index.html` in your browser
+
+3. Customize text in `index.html`
+
+---
+
+## 🛠️ Customize
+
+- Edit CSS variables in `styles/*.css`
+- Add or remove projects in `<section class="projects">`
+
+---
+
+## 🌐 Demo (Live)
+
+👉 [See Live Demo on GitHub Pages](https://github.com/miladkhorrame/css-portfolio-generator/)
+
+---
+
+## 🧠 Inspired by
+
+- Dribbble design trends
+- Apple UI
+- CSS Art communities
+
+---
+
+## 📜 License
+
+MIT — free for personal and commercial use.
