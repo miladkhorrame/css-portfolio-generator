@@ -4,8 +4,8 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>CSS Portfolio Generator</title>
-  <link rel="stylesheet" href="styles/base.css">
-  <link rel="stylesheet" href="styles/theme-classic.css" id="theme">
+  <link rel="stylesheet" href="base.css">
+  <link rel="stylesheet" href="theme-classic.css" id="theme">
 </head>
 <body>
   <div class="theme-switcher">
@@ -22,8 +22,7 @@
 
   <main class="portfolio">
     <section class="intro">
-      <img src="assets/images/avatar.jpg" alt="Your Avatar" class="avatar">
-      <h1>John Doe</h1>
+      <h1>Milad Khorrame</h1>
       <p>Frontend Developer & UI Designer</p>
     </section>
 
@@ -43,14 +42,14 @@
 
     <section class="contact">
       <h2>Contact</h2>
-      <p>Email: john@example.com</p>
-      <p>GitHub: github.com/johndoe</p>
+      <p>Email: miladkhorrame@gmail.com</p>
+      <p>GitHub: github.com/miladkhorrame</p>
     </section>
   </main>
 
   <script>
     function switchTheme(name) {
-      document.getElementById('theme').setAttribute('href', `styles/${name}.css`);
+      document.getElementById('theme').setAttribute('href', `${name}.css`);
     }
   </script>
 </body>
