@@ -1,0 +1,10 @@
+:root {
+  --bg: #e0e0e0;
+  --text: #333;
+  --box-bg: #e0e0e0;
+  --shadow: 8px 8px 15px #bebebe, -8px -8px 15px #ffffff;
+}
+
+.project {
+  border-radius: 20px;
+}
