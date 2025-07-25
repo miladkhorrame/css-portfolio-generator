@@ -49,4 +49,4 @@ Switch between **Classic**, **Glassmorphism**, and **Neumorphism** styles with o
 
 ## 📜 License
 
-MIT — free for personal and commercial use.
+free for personal and commercial use.
