@@ -4,7 +4,7 @@ A beautiful and minimal **portfolio website generator** with 3 switchable CSS th
 
 Perfect for developers and designers who want a fast, stylish portfolio with zero JS overhead.
 
-## 🌈 Includes:
+## 🔥 Includes:
 
 ✅ Classic theme  
 🧊 Glassmorphism theme  
