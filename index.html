@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CSS Portfolio Generator</title>
+  <link rel="stylesheet" href="styles/base.css">
+  <link rel="stylesheet" href="styles/theme-classic.css" id="theme">
+</head>
+<body>
+  <div class="theme-switcher">
+    <label>
+      <input type="radio" name="theme" checked onclick="switchTheme('theme-classic')"> Classic
+    </label>
+    <label>
+      <input type="radio" name="theme" onclick="switchTheme('theme-glass')"> Glass
+    </label>
+    <label>
+      <input type="radio" name="theme" onclick="switchTheme('theme-neumorphism')"> Neumorphism
+    </label>
+  </div>
+
+  <main class="portfolio">
+    <section class="intro">
+      <img src="assets/images/avatar.jpg" alt="Your Avatar" class="avatar">
+      <h1>John Doe</h1>
+      <p>Frontend Developer & UI Designer</p>
+    </section>
+
+    <section class="projects">
+      <h2>Projects</h2>
+      <div class="project-list">
+        <div class="project">
+          <h3>Awesome Website</h3>
+          <p>A responsive HTML/CSS site.</p>
+        </div>
+        <div class="project">
+          <h3>UI Kit</h3>
+          <p>A CSS-only UI kit with modern design.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact">
+      <h2>Contact</h2>
+      <p>Email: john@example.com</p>
+      <p>GitHub: github.com/johndoe</p>
+    </section>
+  </main>
+
+  <script>
+    function switchTheme(name) {
+      document.getElementById('theme').setAttribute('href', `styles/${name}.css`);
+    }
+  </script>
+</body>
+</html>
